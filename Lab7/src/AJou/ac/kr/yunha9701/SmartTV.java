@@ -4,10 +4,6 @@ package AJou.ac.kr.yunha9701;
 public class SmartTV extends Product implements Networked{
 
 	private int channel;
-
-	public SmartTV() {
-		
-	}
 	
 	@Override
 	public boolean isConnected() {
