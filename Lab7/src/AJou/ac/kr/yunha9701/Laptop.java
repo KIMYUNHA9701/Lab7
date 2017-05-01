@@ -2,7 +2,6 @@ package AJou.ac.kr.yunha9701;
 
 public class Laptop extends Product implements Networked, DataStorage{
 	
-	
 	private double totalCapacity;
 	private double usedCapacity;
 	
