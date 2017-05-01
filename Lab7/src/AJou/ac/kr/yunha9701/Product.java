@@ -6,8 +6,10 @@ public abstract class Product {
 public double getPrice() {
 	return price;
 }
-public void setPrice(double price) {
-	this.price = price;
+public void setPrice(double Price) {
+	if(Price != 0){
+		price=Price;
+	}
 }
   public abstract String getName();
 }
