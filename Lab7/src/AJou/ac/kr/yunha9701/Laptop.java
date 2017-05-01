@@ -26,7 +26,7 @@ public class Laptop extends Product implements Networked, DataStorage{
 	@Override
 	public String getName(){
 		String Name = "Laptop";
-		return "Laptop"; 
+		return Name; 
 	}
 	
 	public double getTotalCapacity() {
