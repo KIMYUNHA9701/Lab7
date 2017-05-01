@@ -33,7 +33,7 @@ public class Laptop extends Product implements Networked, DataStorage{
 		return totalCapacity;
 	}
 	public void setTotalCapacity(double totalCapacity) {
-	
+
 		if(totalCapacity>0)
 			this.totalCapacity = totalCapacity;
 	}
