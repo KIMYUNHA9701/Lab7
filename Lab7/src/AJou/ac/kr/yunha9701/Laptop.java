@@ -11,7 +11,7 @@ public class Laptop extends Product implements Networked, DataStorage{
 	}
 	@Override
 	public void format(){
-		System.out.println("Laptop is formated :)");
+		System.out.println("Laptop is formated ;)");
 	}
 	@Override
 	public boolean isConnected(){
@@ -26,7 +26,7 @@ public class Laptop extends Product implements Networked, DataStorage{
 	@Override
 	public String getName(){
 		String Name = "Laptop";
-		return Name; 
+		return "Laptop"; 
 	}
 	
 	public double getTotalCapacity() {

@@ -4,14 +4,12 @@ public class Toaster extends Product implements Cooker{
 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Toaster";
 	}
 
 	@Override
 	public String prepareFood() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Bread";
 	}
 
 }
