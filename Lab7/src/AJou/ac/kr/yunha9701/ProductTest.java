@@ -40,13 +40,16 @@ public class ProductTest {
 		
 		pt.testProduct(s);
 		pt.testNetworked(s);
+		System.out.println();
 		
 		pt.testProduct(t);
 		pt.testCooker(t);
+		System.out.println();
 		
 		pt.testProduct(l);
 		pt.testDataStorage(l);
 		pt.testNetworked(l);
+		System.out.println();
 	}
 }
 
