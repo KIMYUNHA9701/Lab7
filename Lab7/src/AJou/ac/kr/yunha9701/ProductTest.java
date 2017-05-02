@@ -1,8 +1,7 @@
 package AJou.ac.kr.yunha9701;
 
 public class ProductTest {
-	
-	
+		
 	public void testProduct(Product p){
 		System.out.println("Product's name : "+ p.getName());
 		System.out.println("Product's price : "+p.getPrice());
@@ -36,8 +35,7 @@ public class ProductTest {
 		l.setTotalCapacity(1000);
 		l.setUsedCapacity(988);
 		
-		
-		
+				
 		pt.testProduct(s);
 		pt.testNetworked(s);
 		System.out.println();
