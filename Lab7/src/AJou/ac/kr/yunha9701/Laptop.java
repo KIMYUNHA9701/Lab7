@@ -7,11 +7,11 @@ public class Laptop extends Product implements Networked, DataStorage{
 	
 	@Override
 	public double getFreeCapacity(){
-		return 1000000;
+		return 10000;
 	}
 	@Override
 	public void format(){
-		System.out.println("Laptop is formated ;)");
+		System.out.println("Laptop is formated :)");
 	}
 	@Override
 	public boolean isConnected(){
